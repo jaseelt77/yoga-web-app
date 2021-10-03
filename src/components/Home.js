@@ -1,8 +1,7 @@
 import React from "react";
 import './Home.css';
 import Logo from "../assets/images/yoga-lady.png";
-import Choose from "./Choose";
-import { Button } from "./Button";
+
 
 function Home() {
     return (
