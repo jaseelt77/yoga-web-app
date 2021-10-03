@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Choose.css";
 
-function Choose_card({title,imageUrl,body}) {
+function ChooseCard({title,imageUrl,body}) {
    
     return (
         <div className="choose_container">
@@ -18,4 +18,4 @@ function Choose_card({title,imageUrl,body}) {
     )
 }
 
-export default Choose_card;
+export default ChooseCard;

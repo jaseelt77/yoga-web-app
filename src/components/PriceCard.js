@@ -24,7 +24,7 @@ function PriceCard({title, price,content,imageBg}) {
                 <Button className="btn" buttonStyle="btn--primary"
               buttonSize="btn--large">READ MORE</Button>
                 </div>
-            {/* </div> */}
+          
             </div>
           
             

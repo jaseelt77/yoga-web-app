@@ -6,7 +6,6 @@ import Experience from "../Experience";
 import Footer from "../Footer";
 import Home from "../Home";
 import Instructor from "../Instructor";
-import PriceCard from "../PriceCard";
 import StatusComp from "../StatusComp";
 import Testimonials from "../Testimonials";
 function HomePage() {
