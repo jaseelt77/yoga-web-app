@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #f4f9f4;
+  font-family: 'Montserrat', sans-serif;
+}
+img{
+  width: 100%;
+}
+
+/* .staus__wrapper{
+  background-image: url("./assets/images/status_bg.jpg");
+  background-position: center;
+  background-size: top;
+  background-repeat: no-repeat;
+  height: auto;
+} */
+.contact__us{
+  background-image: url("./assets/images/status_bg.jpg");
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  height: auto;
+  
+ 
+}
+.contact__us h1{
+  /* color: red; */
+  font-size: 100px;
+  height: 600px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #6c9894;
+  text-transform: uppercase;
+}

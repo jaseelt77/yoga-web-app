@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Baloo-Bhai';
+    src: url('Mark Simonson - Baloo-Bhai-webfont.eot');
+    src: url('Mark Simonson - Baloo-Bhai-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Mark Simonson - Baloo-Bhai-webfont.woff2') format('woff2'),
+         url('Mark Simonson - Baloo-Bhai-webfont.woff') format('woff'),
+         url('Mark Simonson - Baloo-Bhai-webfont.ttf') format('truetype'),
+         url('Mark Simonson - Baloo-Bhai-webfont.svg#Baloo-Bhai') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

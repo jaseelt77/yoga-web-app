@@ -1,0 +1,389 @@
+
+.section__two{
+    background-color: #6c9894;
+    height: auto;
+    padding: 70px;
+    height: auto;
+    text-align: center;
+
+    
+}
+.headline{
+font-size: 60px;
+color: #fff;
+text-align: center;
+font-family: 'Baloo Bhai 2';
+}
+.description{
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    width: 44%;
+    margin: 0 auto;
+}
+.title{
+    font-size: 26px;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Baloo Bhai 2';
+}
+.title-blue{
+    color: #6c9894;
+}
+.description-sts{
+    font-size: 20px;
+    text-align: center;
+    color: #6c9894;
+    line-height: 1.5;
+    width: 44%;
+    margin: 0 auto;
+}
+.card-body p{
+    font-size: 17px;
+    width: 82%;
+    margin: auto;
+    color: #fff;
+}
+.choose_container{
+    /* width: 300px; */
+    overflow: hidden;
+    /* box-shadow: 0px 0px 15px -5px; */
+}
+.image_container {
+    overflow: hidden;
+    /* height: 200px; */
+}
+.grid{
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    grid-gap: 40px;
+    
+}
+.grid-gap-50{grid-gap: 50px;}
+.py-30{
+    padding-bottom: 30px;
+}
+
+/*status wrapper*/
+.section-status{
+    background-image: url("../assets/images/status_bg.jpg");
+    background-position:  center revert;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    
+}
+.staus__wrapper{
+    padding: 70px 0;
+  }
+  .status__wrappers{
+    max-width: 80%;
+    width: 100%;
+    /* margin: 60px 60px; */
+    padding-top: 60px;
+    margin: auto;
+  }
+  .status__wrappers .status__box{
+    width: 290px;
+    height: 290px;
+    text-align: center;
+    border-radius: 50%;
+    border: 5px solid #6c9894;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 30px;
+  }
+  .status__box h2{
+      font-size: 40px;
+      color: #6c9894;
+      font-family: 'Baloo Bhai 2';
+    font-weight: 700;
+    padding-top:60px
+  }
+  .status__box p{
+    font-size: 21px;
+    text-align: center;
+    color: #6c9894;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .instructor_wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+  }
+  .instructor__item:nth-child(1){
+      background-color: #6c9894;
+      height: auto;
+      margin-bottom: 4px;
+      display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    padding: 35px 70px;
+  }
+  .instructor__item h1{
+    color: #fff;
+    font-size: 50px;
+    line-height: 1;
+    padding-bottom: 15px;
+    font-family: 'Baloo Bhai 2';
+  }
+  .instructor__item p{
+      color: #fff;
+      font-size: 23px;
+    line-height: 1.5;
+    padding-bottom: 40px;
+  }
+  
+ /*testimonials*/
+ .testimonials{
+    background-image: url("../assets/images/sec-811.jpg");
+    background-position:  center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    text-align: center;
+    padding: 70px 0 100px 0;
+ }
+ .testimonials img{
+     width: auto;
+ }
+ .testimonials p{
+     padding-top: 20px;
+    font-size: 32px;
+    color: #6c9894;
+    line-height: 1.5;
+    width: 74%;
+    margin: auto;
+   
+    text-align: center;
+ }
+ .testimonials h2{
+    color: #6c9894;
+    font-weight: bold;
+    padding-top: 20px;
+    font-size: 40px;
+    font-family: 'Baloo Bhai 2';
+ }
+ .experience-wrap{
+     background-color: #f4f9f4;
+    padding: 70px;
+ }
+ .grid-temp{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-gap: 40px;
+ }
+ .experience-wrap::after{
+    position: absolute;
+    background-image: url("../assets/images/exp-right.png");
+    height: 100%;
+    width: 50%;
+    background-size: 43.5%;
+    background-repeat: no-repeat;
+    background-position: right;
+    top: 440px;
+    right: 0;
+    bottom: 0;
+ }
+ .grid-temp .grid-item:last-of-type{
+    /* height: auto; */
+    margin-bottom: 4px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    padding-left: 70px;
+ }
+ .grid-item:last-of-type h1{
+    color: #6c9894;
+    font-size: 45px;
+    line-height: 1.2;
+    padding-bottom: 10px;
+    font-family: 'Baloo Bhai 2'
+ }
+ .grid-item:last-of-type p{
+    color: #6c9894;
+    font-size: 23px;
+   
+    line-height: 1.5;
+    padding-bottom: 40px;
+ }
+ .grid-item:last-of-type::after{
+    content: "";
+    position: absolute;
+    background-image: url("../assets/images/experience-right.png");
+    height: 100%;
+    width: 42%;
+    background-size: 44.5%;
+    background-repeat: no-repeat;
+    background-position: right;
+    /* content: "";
+    position: absolute;
+    background-image: url("../assets/images/experience-right.png");
+    height: 100%;
+    width: 50%;
+    background-size: 93.5%;
+    background-repeat: no-repeat;
+    background-position: right; 
+     top: 440px;
+    right: 0;
+    bottom: 0; */
+    /* content: "";
+    position: absolute;
+    background-image: url("../assets/images/exp-right.png");
+    height: auto;
+    max-width: 60%;
+    width: 100%;
+    background-size: 43.5%;
+    background-repeat: no-repeat;
+    background-position: right; */
+    /* top: 0px; */
+    /* right: 0;
+    bottom: 0; */
+    /* left: 0; */
+
+
+
+ }
+ .flex{
+    display: flex;
+    grid-gap: 40px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+ }
+ .price__wrapper{
+    background: #f4f9f4;
+    /* margin: 40px; */
+    padding: 20px;
+    border-radius: 5px;
+    width: 350px;
+    text-align: center;
+ }
+ .price__wrapper:hover{
+    transition: 0.2s ease-in-out;
+    transform : translateY(-10px);
+    
+ }
+ .price_title{
+    line-height: 1.5;
+    color: #6c9894;
+    font-size: 23px;
+    font-family: 'Baloo Bhai 2';
+ }
+ .price_price{
+    line-height: 1.5;
+    color: #6c9894;
+    font-size: 22px;
+    font-family: 'Baloo Bhai 2';
+ }
+ .price_desc{
+     padding-top: 15px;
+     color: #6c9894;
+     padding-bottom: 22px;
+ }
+ .price__wrapper .btn--large{width: 100%;}
+
+ .price__wrapper img{width: 50%;}
+@media screen and (max-width: 780px) {
+    .grid,.grid-temp{
+        grid-template-columns: 1fr;
+        display: grid;
+        grid-gap: 30px;
+    } 
+    .staus__wrapper {
+        padding: 30px 15px;
+    } 
+    
+    .image_container img {width: 65%;}
+    .status__wrappers {padding-top: 20px;}
+    .description-sts {width: 100%;}
+    .section__two {padding: 20px;}
+    .headline {font-size: 35px;}
+    .description {width: 100%;}
+    
+    .instructor_wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+      .instructor__item:nth-child(1){
+        padding: 20px;}
+      .testimonials img {width: 50%;}
+    .testimonials p {font-size: 22px;}
+    .testimonials h2 {
+        padding-top: 31px;
+        font-size: 25px;
+    }
+    .experience-wrap {
+        background-color: #f4f9f4;
+        padding: 30px 15px;
+    }
+    
+.grid-temp .grid-item:last-of-type {padding-left: 0;}
+.flex{
+    display: flex;
+    grid-gap: 40px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+ }
+}
+@media only screen and (max-width: 992px) and (min-width: 782px)  {
+
+    .flex {flex-flow: column;
+    flex-direction: column;}
+    .status__wrappers {
+        max-width: 100%;}
+        .grid-temp .btn--large {
+            padding: 12px 36px;
+            font-size: 18px;
+            width: 100%;
+        }
+        .instructor_wrapper .btn--large {
+            padding: 12px 36px;
+            font-size: 18px;
+            width: 100%;
+        }
+        .grid {
+            grid-template-columns: 1fr 1fr;
+        }
+        .grid-temp {
+           
+            grid-gap: 0px;
+        }
+        .experience-wrap {
+            padding: 0;
+        }
+        .footer__grids .grid__item {
+            padding: 10px;
+        }
+        .grid__item .grid_ul .foot-item {
+            font-size: 13px;}
+            .grid__item p{
+                font-size: 13px;
+            }
+            .miss__wrap p {
+                color: #fff;
+                width: 100% !important;font-size: 20px;}
+                
+
+.instructor__item:nth-child(1) {
+    margin-bottom: 4px;
+    display: flex;
+    padding: 20px;
+}
+       
+     
+}
+
+@media only screen and (max-width: 1180px) and (min-width: 992px)  {
+    .price__wrapper{width: 100%;}
+    .flex {grid-gap: 11px;}
+    .status__wrappers .status__box {width: 100%;height: 100%;}
+}

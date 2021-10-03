@@ -1,0 +1,67 @@
+:root {
+    --primary : #6c9894;
+}
+
+.btn {
+    padding: 8px 20px;
+    width: 50%;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    z-index: 1;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    line-height: 1.5;
+    font-family: 'Baloo Bhai 2'
+}
+
+.btn--primary {
+    background-color: var(--primary);
+    color: #fff;
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+   
+}
+
+.btn--outline {
+background-color: #f4f4f4;
+color: var(--primary);
+border: 1px solid var(--primary);
+transition: all 0.3s ease-out;
+
+}
+
+.btn--outline:hover,.btn--large:hover{
+    background-color: var(--primary);
+    border: 1px solid #242424;
+}
+
+.btn--medium {
+    padding: 8px 20px;
+    font-size: 20px;
+}
+.btn--large {
+    padding: 12px 36px;
+    font-size: 18px;
+    
+}
+.btn--small{
+    font-size: 16px;
+    padding: 12px 36px;
+    border-radius: 20px;
+    width: 30%;
+}
+
+.btn--medium:hover,
+.btn--large:hover{
+background: #fff;
+color: #242424;
+transition: all 0.3s ease-out;
+}
+
+@media screen and (max-width: 780px) {
+    .btn--large {
+        width: 100%;
+    }
+}

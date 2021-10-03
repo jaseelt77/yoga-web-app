@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+      "baseUrl": "src"
+    },
+    "assets": [
+        "assets",
+        "web.config"
+      ],
+    "include": ["public,src"]
+  }

@@ -1,0 +1,27 @@
+.price__Section{
+    background-color: #6c9894;
+    padding: 70px;
+}
+.price__Section .titles{
+    font-size: 50px;
+    font-weight: bold;
+    color: #f4f4f4;
+    line-height: 1.4;
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: 'Baloo Bhai 2';
+}
+    .price__Section .desc{
+        font-size: 18px;
+        color: #f4f4f4;
+        text-align: center;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 25px;
+    }
+
+    @media screen and (max-width: 780px) {
+        .price__Section {
+            padding: 25px;
+        }
+    }

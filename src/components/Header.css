@@ -1,0 +1,12 @@
+
+.header{
+    background-color: #f4f9f4;
+    /* height: 700px; */
+}
+
+@media screen and (max-width: 780px) {
+    .header{
+        background-color: #f4f9f4;
+        height: auto;
+    } 
+}

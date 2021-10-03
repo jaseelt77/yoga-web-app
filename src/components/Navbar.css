@@ -1,0 +1,104 @@
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    background-color: #e2ede8;
+    color: #5d6462;
+    margin-top: 52px;
+}
+.logo{
+    font-size: 30px;
+}
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    width: 75%;
+}
+.home,
+.aboutus,
+.services,
+.contactus{
+    text-decoration: none;
+    color: #5d6462;
+    font-size: 17px;
+    padding: 8px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Baloo Bhai 2';
+    font-weight: 600;
+
+}
+.home:hover,
+.aboutus:hover,
+.services:hover,
+.contactus:hover{
+    color: #798886;
+    background-color: #c7d9d5;
+}
+
+.mobile-menu-icon{
+    display: none;
+}
+@media screen and (max-width: 780px) {
+    .logo{
+        display: flex;
+        /* position: absolute;
+        top: 15px;
+        left: 35px;
+        z-index: 99;
+        display: flex; */
+    position: absolute;
+    top: 42px;
+    left: 35px;
+    z-index: 99;
+    width: 47px;
+    }
+    .nav-links{
+        display: none;
+    }
+    .nav-links-mobile{
+        position: absolute;
+        display: block;
+        list-style: none;
+        background-color: #e2ede8;
+        left: 0;
+        top: 91px;
+        transition: all 0.5s ease-out;
+        width: 100%;
+        z-index: 12;
+    }
+    .home,
+    .aboutus,
+    .services,
+    .contactus{
+    color: #5d6462;
+    text-align: center;
+    padding: 32px;
+    width: 100%;
+    transition: all 0.5s ease;
+    }
+    .home:hover,
+    .aboutus:hover,
+    .services:hover,
+    .contactus:hover{
+        background: #c7d9d5;
+    }
+.mobile-menu-icon{
+    display: block;
+    position: absolute;
+    font-size: 30px;
+    color: #5d6462;
+    background-color: #e2ede8;
+    border: none;
+    outline: 0;
+    /* top: 15px; */
+    outline: 0;
+    top: 57px;
+    right: 25px;
+}
+
+}
